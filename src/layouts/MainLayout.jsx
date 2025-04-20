@@ -10,7 +10,6 @@ const MainLayout = () => {
             <main className="flex-1 bg-gray-100">
                 <div className='max-w-screen mx-auto px-8 md:px-18 lg:px-16 xl:px-24'>
                     <Outlet />
-
                 </div>
             </main>
             <Footer></Footer>
