@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'plus';
+  src: url('/src/assets/fonts/plus.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+
+@theme {
+  --font-plus: 'plus', sans-serif;
+}
