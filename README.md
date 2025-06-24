@@ -28,3 +28,11 @@ Roommate Finder is a responsive web application designed to help users easily se
 - (Optional) Authentication with Firebase or JWT  
 - (Optional) MongoDB integration for data storage
 
+## 🛠️ How to Run Locally
+
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/hanifsikder921/roommate-finder.git
+
+
