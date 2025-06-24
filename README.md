@@ -33,17 +33,6 @@ The app features a modern UI built with Tailwind CSS and is optimized for all de
 
 ---
 
-## 📸 Screenshot
-
-> *(Add your screenshot here if available)*  
-You can use:  
-```
-![Roommate Finder Screenshot](https://i.ibb.co/0Z8Y7Dz/roommate-finder-screenshot.png)
-```
-
----
-
-
 
 ## 🛠️ How to Run Locally
 
@@ -74,7 +63,7 @@ npm run dev
 
 ### 6. Visit in your browser:
 ```bash
-http://localhost:3000
+http://localhost:5173
 ```
 
 ---
