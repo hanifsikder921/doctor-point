@@ -31,8 +31,33 @@ Roommate Finder is a responsive web application designed to help users easily se
 ## 🛠️ How to Run Locally
 
 ### 1. Clone the repository:
-
 ```bash
 git clone https://github.com/hanifsikder921/roommate-finder.git
+2. Navigate to the project directory:
+bash
+Copy
+Edit
+cd roommate-finder
+3. Install the dependencies:
+bash
+Copy
+Edit
+npm install
+4. (If using Tailwind manually):
+bash
+Copy
+Edit
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+5. Run the development server:
+bash
+Copy
+Edit
+npm run dev
+6. Visit in your browser:
+bash
+Copy
+Edit
+http://localhost:3000
+
 
 
