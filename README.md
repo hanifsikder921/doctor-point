@@ -1,5 +1,5 @@
 
-# 🏠 Roommate Finder Web App
+# 🏥 Doctor Point - Online Doctor Appointment Booking Website
 
 **🔗 Live Website:** [https://assignment-m-8.netlify.app](https://assignment-m-8.netlify.app)
 
@@ -7,43 +7,44 @@
 
 ## 📌 Project Overview
 
-Roommate Finder is a responsive web application designed to help users easily search for compatible roommates.  
-Users can create a profile, filter roommate listings based on location and preferences, and connect with potential matches.  
-The app features a modern UI built with Tailwind CSS and is optimized for all devices.
+Doctor Point is a responsive and user-friendly web application that allows patients to book appointments with doctors online.  
+The platform showcases doctor profiles, specializations, and available appointment slots to make healthcare more accessible.  
+Built with React and styled using Tailwind CSS and DaisyUI, the app is optimized for all screen sizes.
 
 ---
 
 ## 💻 Tech Stack
 
-- **Frontend:** React.js, Tailwind CSS  
-- **Backend (Optional):** Node.js, Express.js  
-- **Database (Optional):** MongoDB  
-- **Authentication (Optional):** Firebase / JWT  
+- **Frontend:** React.js, Tailwind CSS, DaisyUI  
+- **Routing:** React Router  
+- **State Management:** React Context API  
 - **Deployment:** Netlify
 
 ---
 
 ## ✨ Features
 
-- ✅ User profile creation and management  
-- ✅ Location-based roommate search  
-- ✅ Modern responsive UI with Tailwind CSS  
-- ✅ (Optional) Authentication with Firebase or JWT  
-- ✅ (Optional) MongoDB integration for data storage  
+- ✅ Browse doctor profiles with detailed information  
+- ✅ Book appointments with available doctors  
+- ✅ Search or filter doctors by specialty or location  
+- ✅ Responsive UI with modern design using Tailwind CSS and DaisyUI  
+- ✅ (Optional) User login/profile management system
 
 ---
 
+
+---
 
 ## 🛠️ How to Run Locally
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/hanifsikder921/roommate-finder.git
+git clone https://github.com/yourusername/doctor-point.git
 ```
 
 ### 2. Navigate to the project directory:
 ```bash
-cd roommate-finder
+cd doctor-point
 ```
 
 ### 3. Install the dependencies:
@@ -51,27 +52,33 @@ cd roommate-finder
 npm install
 ```
 
-### 4. (If using Tailwind manually):
-```bash
-npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
-```
-
-### 5. Run the development server:
+### 4. Start the development server:
 ```bash
 npm run dev
 ```
 
-### 6. Visit in your browser:
+### 5. Open in your browser:
 ```bash
-http://localhost:5173
+http://localhost:3000
 ```
+
+---
+
+## 📦 Dependencies Used
+
+- react  
+- react-router  
+- tailwindcss  
+- daisyui  
+- sweetalert2 *(if used for alerts)*  
+- axios *(if used for API calls)*  
 
 ---
 
 ## 🔗 Relevant Links
 
 - 🌍 **Live Website:** [https://assignment-m-8.netlify.app](https://assignment-m-8.netlify.app)  
-- 📂 **GitHub Repository:** [https://github.com/hanifsikder921/roommate-finder](https://github.com/hanifsikder921/roommate-finder)  
+- 📂 **GitHub Repository:** [https://github.com/hanifsikder921/doctor-point](https://github.com/hanifsikder921/doctor-point)  
 - 🧑‍💻 **Portfolio:** [https://hanifsikder.com](https://hanifsikder.com)
 
 ---
@@ -82,6 +89,3 @@ http://localhost:5173
 📫 Email: mdhanifsikderpersonal@gmail.com  
 🔗 LinkedIn: [https://linkedin.com/in/hanifsikder920](https://linkedin.com/in/hanifsikder920)
 
----
-
-> 📝 *Feel free to fork this project, raise issues, or suggest improvements.*
